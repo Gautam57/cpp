@@ -1,0 +1,24 @@
+Program1.)
+#include<iostream>
+using namespace std;
+int main()
+{
+  float x,y, product;
+  cout<<"enter the numbers to find product\n";
+  cin>>x>>y;
+  product=x*y;
+  cout<<"product of two numbers is:"<<product;
+  return 0;
+}
+ 
+Program2.)
+#include<iostream>
+using namespace std;
+int main()
+{ 
+   cout<<"size of int is "<<sizeof(int)<<"bytes\n";
+   cout<<"size of char is "<<sizeof(char)<<"bytes\n";
+   cout<<"size of float is "<<sizeof(float)<<"bytes\n";
+   cout<<"size of double is "<<sizeof(double)<<"bytes\n";
+   return 0;
+}
